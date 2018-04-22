@@ -1,0 +1,61 @@
+.tariff-plan-block{
+	display: flex;
+	background: $light-bg;
+	padding: 25px;
+	flex-direction: column;
+	align-items: center;
+	transition: all $t;
+
+	&:hover{
+		background: darken($light-bg, 10%);
+	}
+
+	.plan-caption{
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 15px;
+		font-weight: 400;
+		text-transform: uppercase;
+		color: $azure;
+		flex: none;
+	}
+
+	.plan-descr{
+		flex: auto;
+		text-align: center;
+		padding-bottom: 20px;
+		margin-bottom: 15px;
+		position: relative;
+
+		&:after{
+			content: '';
+			display: block;
+			width: 100px;
+			height: 2px;
+			background: #c6c6c6;
+			position: absolute;
+			left: calc(50% - 50px);
+			bottom: 0;
+		}
+
+		p{
+			color: #7d7d7d;
+			font-size: 13px;
+			line-height: 18px;
+		}
+	}
+
+	.plan-price{
+		flex: none;
+		font-size: 30px;
+		line-height: 30px;
+		font-weight: bold;
+		color: $text-dark;
+		margin-bottom: 17px;
+	}
+
+	.plan-button{
+		flex: none;
+		margin-bottom: calc(-25px - 17px);
+	}
+}

@@ -1,0 +1,217 @@
+.icon{
+	display: inline-block;
+
+	&.icon-opener{
+		width: 8px;
+		height: 5px;
+		background: url(../img/icons/opener-white.png) no-repeat center center;
+	}
+
+	&.icon-opener-gray{
+		width: 13px;
+		height: 8px;
+		background: url(../img/icons/opener-gray.png) no-repeat center center;
+	}
+
+	&.icon-coin-dollar{
+		width: 23px;
+		height: 23px;
+		background: url(../img/icons/coin-dollar.png) no-repeat center center;
+	}
+
+	&.icon-wallet-white{
+		width: 22px;
+		height: 25px;
+		background: url(../img/icons/wallet-white.png) no-repeat center center;
+	}
+
+	&.icon-notification{
+		width: 23px;
+		height: 27px;
+		background: url(../img/icons/notification.png) no-repeat center center;
+	}
+
+	&.icon-activation{
+		background: url(../img/icons/activation.png) no-repeat center center;
+		width: 29px;
+		height: 29px;
+	}
+
+	&.icon-sim{
+		background: url(../img/icons/sim.png) no-repeat center center;
+		width: 23px;
+		height: 30px;
+	}
+
+	&.icon-history{
+		background: url(../img/icons/history.png) no-repeat center center;
+		width: 23px;
+		height: 31px;
+	}
+
+	&.icon-fill{
+		background: url(../img/icons/fill.png) no-repeat center center;
+		width: 30px;
+		height: 30px;
+	}
+
+	&.icon-settings{
+		background: url(../img/icons/settings.png) no-repeat center center;
+		width: 28px;
+		height: 28px;
+	}
+
+	&.icon-api{
+		background: url(../img/icons/api.png) no-repeat center center;
+		width: 22px;
+		height: 25px;
+	}
+
+	&.icon-persons{
+		background: url(../img/icons/persons.png) no-repeat center center;
+		width: 29px;
+		height: 29px;
+	}
+
+	&.icon-wallet{
+		background: url(../img/icons/wallet.png) no-repeat center center;
+		width: 22px;
+		height: 25px;
+	}
+
+	&.icon-support{
+		background: url(../img/icons/support.png) no-repeat center center;
+		width: 25px;
+		height: 25px;
+	}
+
+	&.icon-sort{
+		background: url(../img/icons/sort.png) no-repeat center center;
+		width: 7px;
+		height: 11px;
+	}
+
+	&.icon-copy{
+		background: url(../img/icons/copy.png) no-repeat center center;
+		width: 13px;
+		height: 17px;
+	}
+
+	&.icon-vodafone{
+		background: url(../img/icons/vodafone.png) no-repeat center center;
+		width: 19px;
+		height: 19px;
+	}
+
+	&.icon-kyivstar{
+		background: url(../img/icons/kyivstar.png) no-repeat center center;
+		width: 19px;
+		height: 19px;
+	}
+
+	&.icon-lifecell{
+		background: url(../img/icons/lifecell.png) no-repeat center center;
+		width: 19px;
+		height: 19px;
+	}
+
+	&.icon-like{
+		background: url(../img/icons/like.png) no-repeat center center;
+		width: 15px;
+		height: 13px;
+	}
+
+	&.icon-calendar{
+		background: url(../img/icons/calendar.png) no-repeat center center;
+		width: 13px;
+		height: 13px;
+	}
+
+	&.icon-tick{
+		background: url(../img/icons/tick.png) no-repeat center center;
+		width: 11px;
+		height: 7px;
+	}
+
+	&.icon-cancel{
+		background: url(../img/icons/cancel.png) no-repeat center center;
+		width: 10px;
+		height: 10px;
+	}
+
+}
+
+.round-icon{
+	width: 29px;
+	height: 29px;
+	background: $green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	border-radius: 50%;
+	text-decoration: none;
+	transition: all $t;
+	cursor: pointer;
+
+	span{
+		font-size: 14px;
+		line-height: 13px;
+		display: block;
+	}
+
+	&:not(.cursor-default){
+		&:hover{
+			background: $green-dark;
+		}
+	}
+
+	&.small{
+		width: 15px;
+		height: 15px;
+	}
+
+	&.medium{
+		width: 22px;
+		height: 22px;
+	}
+
+	&.coral,
+	&.red{
+		background: $coral;
+
+		span{
+			line-height: 12px;
+		}
+
+		&:not(.cursor-default){
+			&:hover{
+				background: darken($coral, 10%);
+			}
+		}
+	}
+
+	&.gray{
+		background: #a1a1a1;
+
+		&:not(.cursor-default){
+			&:hover{
+				background: darken(#a1a1a1, 10%);
+			}
+		}
+	}
+
+	&.azure{
+		background: $azure;
+
+		&:not(.cursor-default){
+			&:hover{
+				background: darken($azure, 10%);
+			}
+		}
+	}
+
+	&.cursor-default{
+		cursor: default;
+	}
+}

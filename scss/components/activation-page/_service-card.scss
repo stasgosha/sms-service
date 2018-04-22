@@ -1,0 +1,53 @@
+.service-card{
+	display: flex;
+	align-items: center;
+	padding: 15px 9px;
+	background: #fff;
+	width: 100%;
+
+	> .like{
+		flex: none;
+		margin-right: 13px;
+		cursor: pointer;
+		display: block;
+		text-decoration: none;
+
+		i{
+			display: block;
+		}
+	}
+
+	.service-logo{
+		flex: none;
+		width: 30px;
+		height: 30px;
+		margin-right: 8px;
+
+		img{
+			max-width: 100%;
+			max-height: 100%;
+			display: block;
+		}
+	}
+
+	.card-text{
+		flex: auto;
+
+		.service-name{
+			font-size: 13px;
+			line-height: 16px;
+			font-weight: bold;
+			color: $text-dark;
+		}
+
+		.service-info{
+			color: #939393;
+			font-size: 12px;
+			line-height: 14px;
+		}
+	}
+
+	.service-add{
+		flex: none;
+	}
+}

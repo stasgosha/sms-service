@@ -1,0 +1,91 @@
+.btn{
+	display: inline-flex;
+	cursor: pointer;
+	transition: all $t;
+	outline: none;
+	border: 0;
+
+	&.btn-default{
+		font-size: 14px;
+		line-height: 20px;
+		padding: 7px 24px;
+		background: $green;
+		color: #fff;
+		border-radius: 18px;
+		text-decoration: none;
+
+		&:hover{
+			background: $green-dark;
+		}
+
+		&.btn-small{
+			font-size: 12px;
+			line-height: 18px;
+			padding: 3px 14px;
+			border-radius: 12px;
+		}
+
+		&.btn-medium{
+			border-width: 1px;
+			padding: 5px 20px;
+			border-radius: 15px;
+			font-size: 12px;
+		}
+
+		&.btn-big{
+			padding: 10px 24px;
+			border-radius: 20px;
+		}
+
+		&.btn-darken{
+			background: $green-dark;
+
+			&:hover{
+				background: darken($green-dark, 10%)
+			}
+		}
+	}
+
+	&.btn-light{
+		border: 2px solid $green;
+		background: #fff;
+		padding: 8px 30px;
+		font-size: 14px;
+		line-height: 18px;
+		border-radius: 19px;
+		text-decoration: none;
+		color: $text-dark;
+
+		&:hover{
+			background: $green;
+			color: #fff;
+		}
+
+		&.btn-azure{
+			border-color: $azure;
+
+			&:hover{
+				background: $azure;
+			}
+		}
+
+		&.btn-small{
+			padding: 3px 7px;
+			border-width: 1px;
+			border-radius: 10px;
+			font-size: 12px;
+			line-height: 12px;
+		}
+
+		&.btn-medium{
+			border-width: 1px;
+			padding: 6px 20px;
+			border-radius: 15px;
+			font-size: 12px;
+		}
+	}
+
+	&.btn-bold{
+		font-weight: bold;
+	}
+}

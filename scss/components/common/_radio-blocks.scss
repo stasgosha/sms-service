@@ -1,0 +1,53 @@
+.radio-blocks{
+	margin-bottom: 5px;
+
+	.radio-item{
+		cursor: pointer;
+		margin-bottom: 15px;
+
+		.item-content{
+			padding: 10px 15px;
+			min-height: 70px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			cursor: pointer;
+			transition: all $t;
+			border: 1px solid $border-color;
+
+			*{
+				transition: all $t;
+				opacity: .5;
+				filter: grayscale(100%);
+			}
+
+			&:hover{
+				*{
+					filter: grayscale(0%);
+					opacity: 1;
+				}
+			}
+
+			img{
+				max-width: 100%;
+				max-height: 100%;
+				display: block;
+			}
+		}
+
+		input{
+			display: none;
+
+			&:checked{
+				+ .item-content{
+					border-color: $green;
+
+					*{
+						filter: grayscale(0%);
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}

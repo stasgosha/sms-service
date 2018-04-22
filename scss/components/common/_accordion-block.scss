@@ -1,0 +1,38 @@
+.accordion-block{
+	.accordion-header{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		transition: all $t;
+		cursor: pointer;
+		user-select: none;
+
+		.accordion-caption{
+			flex: auto;
+		}
+
+		.accordion-opener{
+			flex: none;
+			width: 24px;
+			height: 24px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: -5px;
+			transition: all $t;
+			transform: rotate(180deg);
+		}
+	}
+
+	.accordion-content{
+		padding-top: 30px;
+	}
+
+	&.closed{
+		.accordion-header{
+			.accordion-opener{
+				transform: rotate(0deg);
+			}
+		}
+	}
+}

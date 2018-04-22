@@ -1,0 +1,21 @@
+.withdraw-form{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	max-width: 760px;
+
+	.withdraw-wallet{
+		flex: auto;
+		margin-right: 20px;
+	}
+
+	.withdraw-amount{
+		flex: none;
+		width: 135px;
+		margin-right: 20px;
+	}
+
+	.withdraw-button{
+		flex: none;
+	}
+}

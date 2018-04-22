@@ -1,0 +1,66 @@
+@import "vars";
+@import "fonts";
+@import "icons";
+@import "base";
+@import "layout";
+
+// Assist
+@import "assist";
+
+// Typography
+@import "components/page-typography";
+
+// Buttons
+@import "components/buttons";
+
+// Common
+@import "components/common/gray-section";
+@import "components/common/accordion-block";
+@import "components/common/form-items";
+@import "components/common/tables";
+@import "components/common/tabs";
+@import "components/common/flex-container";
+@import "components/common/radio-blocks";
+
+// Header
+@import "components/header/site-logo";
+@import "components/header/main-nav";
+@import "components/header/wallets-list";
+@import "components/header/wallet-block";
+@import "components/header/header-account-block";
+@import "components/header/user-block";
+@import "components/header/user-notifications";
+@import "components/header/popover-block";
+
+// Sidebar
+@import "components/sidebar/sidebar-nav";
+
+// Notifications
+@import "components/notifications/notifications-list";
+@import "components/notifications/notification-card";
+
+// Activation Page
+@import "components/activation-page/activation-filter";
+@import "components/activation-page/services-list";
+@import "components/activation-page/service-card";
+
+// History Page
+@import "components/history-page/history-filter";
+
+// Support Page
+@import "components/support-page/support-form";
+
+// Refill Page
+@import "components/refill-page/refill-form";
+@import "components/refill-page/tariff-plan-block";
+
+// Withdraw Page
+@import "components/withdraw-page/withdraw-form";
+
+// Refferals Page
+@import "components/refferals-page/refferal-link-form";
+@import "components/refferals-page/materials-card";
+
+// Settings Page
+@import "components/settings-page/settings-form";
+@import "components/settings-page/user-avatar-block";

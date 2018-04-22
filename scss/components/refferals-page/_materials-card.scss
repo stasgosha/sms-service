@@ -1,0 +1,37 @@
+.materials-card{
+	margin-bottom: 35px;
+
+	&.no-margin{ margin-bottom: 0; }
+
+	.card-preview{
+		width: 100%;
+		height: 250px;
+		max-width: 255px;
+		margin-bottom: 15px;
+		background: darken($light-bg, 10%); // remove if not needed
+
+		&.wide{
+			max-width: 520px;
+			height: 90px;
+		}
+
+		img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+
+	.card-descr{
+		.card-caption{
+			font-weight: bold;
+			margin-bottom: 0;
+			color: $text-dark;
+		}
+
+		.card-insert-link{
+			margin-bottom: 5px;
+			color: $text-dark;
+		}
+	}
+}

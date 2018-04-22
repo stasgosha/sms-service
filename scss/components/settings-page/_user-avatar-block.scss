@@ -1,0 +1,22 @@
+.user-avatar-block{
+	.block-caption{
+		color: $text-dark;
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+
+	.block-image{
+		border: 1px solid #ddd;
+		width: 130px;
+		margin-bottom: 10px;
+		cursor: pointer;
+
+		img{
+			max-width: 100%;
+			height: auto;
+			display: block;
+		}
+	}
+}

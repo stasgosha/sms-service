@@ -1,0 +1,164 @@
+.user-block{
+	display: flex;
+	align-items: center;
+	position: relative;
+
+	.user-avatar{
+		width: 41px;
+		height: 41px;
+		border-radius: 50%;
+		margin-right: 10px;
+		flex: none;
+		position: relative;
+
+		img{
+			border-radius: 50%;
+			max-width: 100%;
+			display: block;
+			height: auto;
+		}
+
+		.popover-block{
+			width: 255px;
+			top: 65px;
+			left: -90px;
+
+			&:before{
+				left: 102px;
+			}
+		}
+
+		&:hover{
+			.popover-block{
+				display: block;
+			}
+		}
+	}
+
+	.user-info{
+		.name{
+			font-size: 13px;
+			line-height: 15px;
+			font-weight: bold;
+			color: #fff;
+			margin-bottom: 3px;
+		}
+
+		.email{
+			font-size: 13px;
+			line-height: 15px;
+			color: $light;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+
+		.user-nav{
+			display: flex;
+			list-style: none;
+
+			li{
+				font-size: 12px;
+				line-height: 14px;
+				color: $light;
+
+				> a{
+					text-decoration: underline;
+					color: $light;
+
+					&:hover{
+						text-decoration: none;
+					}
+				}
+
+				&:after{
+					content: '-';
+					display: inline-block;
+					width: 20px;
+					text-align: center;
+				}
+
+				&:last-child{
+					&:after{
+						display: none;
+					}
+				}
+
+				&.user-nav-item-settings{
+					position: relative;
+
+					.popover-block{
+						width: 275px;
+						left: auto;
+						right: 15px;
+						top: 30px;
+
+						&:after{
+							top: -20px;
+						}
+					}
+
+					&:hover{
+						.popover-block{
+							display: block;
+						}
+					}
+				}
+			}
+		}
+
+		p{
+			font-size: 12px;
+			line-height: 14px;
+			color: $light;
+
+			&.position{
+				margin-bottom: 12px;
+			}
+
+			&.worktime{
+				margin-bottom: 15px;
+			}
+		}
+
+		.phone{
+			font-size: 14px;
+			line-height: 16px;
+			color: #656565;
+			font-weight: bold;
+			margin-bottom: 5px;
+			text-decoration: none;
+			display: inline-block;
+
+			&:hover{
+				text-decoration: underline;
+			}
+		}
+	}
+
+	&.black-text{
+		.user-info{
+			.name{
+				color: $text-dark;
+			}
+
+			.email{
+				color: $text-light;
+			}
+
+			.user-nav li a{
+				color: #808080;
+			}
+
+			p{
+				color: #656565;
+			}
+		}
+	}
+
+	&.top-aligned{
+		align-items: flex-start;
+	}
+}

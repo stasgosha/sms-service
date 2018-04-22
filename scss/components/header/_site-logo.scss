@@ -1,0 +1,15 @@
+.site-logo{
+	color: #fff;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	display: block;
+	transition: all $t;
+	text-decoration: none;
+
+	&:hover{
+		color: $light;
+		text-decoration: none;
+	}
+}

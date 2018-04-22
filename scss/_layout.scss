@@ -1,0 +1,131 @@
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	padding-top: 72px;
+	min-height: 100vh;
+	position: relative;
+
+	&:after{
+		content: '';
+		display: block;
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		background: linear-gradient(to right, $light-bg 0%, $light-bg 50%, #fff 50%, #fff 100%);;
+	}
+
+	.page{
+		flex: auto;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.header{
+			flex: none;
+			position: fixed;
+			height: 72px;
+			left: 0;
+			top: 0;
+			width: 100%;
+			background: $dark-bg;
+			display: flex;
+			justify-content: center;
+			z-index: 100;
+
+			.header-inner{
+				display: flex;
+				width: 100%;
+				// max-width: 1170px;
+				justify-content: center;
+				min-width: $content-min-width;
+				max-width: $content-max-width;
+
+				.header-left{
+					flex: none;
+					padding: 15px 20px;
+					display: flex;
+					align-items: center;
+				}
+
+				.header-middle{
+					flex: auto;
+					display: flex;
+					padding: 15px 25px;
+					background: $green;
+					align-items: center;
+					justify-content: space-between;
+					min-width: 690px;
+
+					.middle-left,
+					.middle-right{
+						display: flex;
+						align-items: center;
+						flex: none;
+					}
+
+					.middle-left{
+						.btn-default{
+							position: relative;
+							z-index: 10;
+						}
+					}
+
+					.main-nav{
+						margin-right: 25px;
+					}
+				}
+
+				.header-right{
+					flex: none;
+					padding: 15px 20px;
+					align-items: center;
+					justify-content: space-between;
+				}
+			}
+		}
+
+		.main-section{
+			display: flex;
+			flex: auto;
+			min-width: $content-min-width;
+			max-width: $content-max-width;
+			width: 100%;
+			background: #fff;
+
+			.sidebar{
+				flex: none;
+				width: auto;
+				max-width: 255px;
+				background: $light-bg;
+				padding: 23px 15px 30px;
+			}
+
+			.main-content{
+				flex: auto;
+				padding: 35px 30px 60px 60px;
+
+				.main-content-inner{
+					display: flex;
+
+					.page-content{
+						flex: auto;
+					}
+
+					.right-sidebar{
+						flex: none;
+						margin-left: 30px;
+						width: 255px;
+					}
+				}
+			}
+		}
+	}
+
+	.footer{
+		flex: none;
+	}
+}

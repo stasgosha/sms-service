@@ -1,0 +1,9 @@
+.services-list{
+	> .item{
+		margin-bottom: 3px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+}
