@@ -32,6 +32,8 @@
 		.card-insert-link{
 			margin-bottom: 5px;
 			color: $text-dark;
+			word-wrap: break-word;
+			word-break: break-all;
 		}
 	}
 }

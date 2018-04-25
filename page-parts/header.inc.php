@@ -107,7 +107,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="user-info">
+								<div class="user-info hidden-sm hidden-xs">
 									<div class="name">Иванов Иван</div>
 									<ul class="user-nav">
 										<li class="user-nav-item-settings">
@@ -134,6 +134,11 @@
 								</div>
 							</div>
 						</div>
+						<!-- <div class="menu-opener">
+							<i class="bar"></i>
+							<i class="bar"></i>
+							<i class="bar"></i>
+						</div> -->
 					</div>
 				</div>
 			</div>

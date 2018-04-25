@@ -1,5 +1,5 @@
 <?php $page_title = "Активация получения SMS" ?>
-<?php $sidebar_classes = "narrow"; ?>
+<?php // $sidebar_classes = "narrow"; ?>
 <?php include('page-parts/header.inc.php'); ?>
 <div class="main-section">
 	<?php include('page-parts/sidebar.inc.php'); ?>
@@ -51,155 +51,157 @@
 					</div>
 				</div>
 				<div class="gray-section small-paddings">
-					<table class="table">
-						<tr>
-							<th>ID</th>
-							<th>Номер</th>
-							<th>Осталось</th>
-							<th>Сервис</th>
-							<th>Статус</th>
-							<th>Код <wbr>из СМС</th>
-							<th>Действия</th>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+					<div class="scrollable-container">
+						<table class="table">
+							<tr>
+								<th>ID</th>
+								<th>Номер</th>
+								<th>Осталось</th>
+								<th>Сервис</th>
+								<th>Статус</th>
+								<th>Код <wbr>из СМС</th>
+								<th>Действия</th>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-						<tr>
-							<td>123</td>
-							<td>
-								<div class="copy-text">
-									<span>+380123456789</span>
-									<i class="icon icon-copy"></i>
-								</div>
-							</td>
-							<td>02:30</td>
-							<td>BlaBlaCar</td>
-							<td>
-								<div class="flex-center">
-									<div class="round-icon medium gray cursor-default">
-										<span>!</span>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
 									</div>
-								</div>
-							</td>
-							<td>Загрузка...</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
-								<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
-							</td>
-						</tr>
-					</table>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
+									</div>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
+									</div>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
+									</div>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
+									</div>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+							<tr>
+								<td>123</td>
+								<td>
+									<div class="copy-text">
+										<span>+380123456789</span>
+										<i class="icon icon-copy"></i>
+									</div>
+								</td>
+								<td>02:30</td>
+								<td>BlaBlaCar</td>
+								<td>
+									<div class="flex-center">
+										<div class="round-icon medium gray cursor-default">
+											<span>!</span>
+										</div>
+									</div>
+								</td>
+								<td>Загрузка...</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Готово</a>
+									<a href="#" class="btn btn-light btn-small btn-azure">Использован</a>
+								</td>
+							</tr>
+						</table>
+					</div>
 					<div class="margin-bottom-25px"></div>
 					<div class="flex-center">
 						<a href="#" class="btn btn-light">Показать ещё</a>
@@ -209,7 +211,7 @@
 			</div>
 			<div class="right-sidebar">
 				<div class="gray-section">
-					<div class="accordion-block">
+					<div class="accordion-block close-on-sm">
 						<div class="accordion-header">
 							<div class="accordion-caption">
 								<div class="small-title no-margin">

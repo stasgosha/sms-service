@@ -85,4 +85,57 @@
 			transform: rotate(-180deg);
 		}
 	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		flex-wrap: wrap;
+		padding: 15px;
+
+		.card-date{
+			width: 100%;
+			// margin-bottom: 4px;
+			padding-left: 32px;
+
+			p{
+				font-size: 12px;
+				br{
+					display: none;
+				}
+			}
+		}
+
+		.card-opener{
+			&:before{
+				right: -5px;
+				top: -33px;
+			}
+		}
+	}
+
+	@media screen and (max-width: $mobile-small-breakpoint){
+		position: relative;
+
+		.card-info{
+			padding-right: 35px;
+			width: 100%;
+
+			.card-info-text{
+				padding-right: 0;
+
+				.card-hidden-text{
+					width: calc(100% + 35px);
+				}
+			}
+		}
+
+		.card-opener{
+			right: 15px;
+			top: 25px;
+			position: absolute;
+
+			&:before{
+				width: 55px;
+				top: -25px;
+			}
+		}
+	}
 }

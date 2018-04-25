@@ -21,6 +21,18 @@
 	flex-wrap: wrap;
 	display: flex;
 
+	@media screen and (min-width: $mobile-big-breakpoint) and (max-width: $tablet-breakpoint){
+		@include col-generator('.col-md');
+	}
+
+	@media screen and (min-width: $mobile-small-breakpoint) and (max-width: $mobile-big-breakpoint){
+		@include col-generator('.col-sm');
+	}
+
+	@media screen and (max-width: $mobile-small-breakpoint){
+		@include col-generator('.col-xs');
+	}
+
 	&.align-center{
 		align-items: center;
 	}
@@ -46,6 +58,18 @@
 			&.stretch-items{
 				align-items: stretch;
 				display: flex;
+			}
+		}
+	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		.flex-row{
+			width: calc(100% + 16px);
+			margin-left: -8px;
+			margin-right: -8px;
+
+			.flex-col{
+				padding: 0 8px;
 			}
 		}
 	}

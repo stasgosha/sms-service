@@ -1,4 +1,16 @@
 .refill-form{
 	width: 100%;
 	max-width: 450px;
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		.form .form-row{
+			flex-direction: column;
+		}
+
+		.label{
+			margin-top: 10px;
+			margin-bottom: 0 !important;
+			margin-left: 0 !important;
+		}
+	}
 }

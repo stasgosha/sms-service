@@ -1,0 +1,30 @@
+.menu-opener{
+	display: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	// display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-left: 15px;
+	cursor: pointer;
+
+	.bar{
+		width: 18px;
+		height: 2px;
+		border-radius: 2px;
+		background: #fff;
+		margin-bottom: 4px;
+		display: block;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	@media screen and (max-width: 620px){
+		display: flex;
+	}
+}

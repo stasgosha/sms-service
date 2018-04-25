@@ -33,24 +33,26 @@
 							<h5>Статистика</h5>
 						</div>
 						<div class="gray-section small-paddings">
-							<table class="table">
-								<tr>
-									<th>Логин</th>
-									<th width="150">Заработок</th>
-								</tr>
-								<tr>
-									<td>User123</td>
-									<td>25.00</td>
-								</tr>
-								<tr>
-									<td>User123</td>
-									<td>15.00</td>
-								</tr>
-								<tr>
-									<td>User123</td>
-									<td>110.00</td>
-								</tr>
-							</table>
+							<div class="scrollable-container">
+								<table class="table">
+									<tr>
+										<th>Логин</th>
+										<th width="150">Заработок</th>
+									</tr>
+									<tr>
+										<td>User123</td>
+										<td>25.00</td>
+									</tr>
+									<tr>
+										<td>User123</td>
+										<td>15.00</td>
+									</tr>
+									<tr>
+										<td>User123</td>
+										<td>110.00</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
 					<div class="tab" id="tab_materials">
@@ -80,7 +82,7 @@
 						</div>
 						<div class="flex-container">
 							<div class="flex-row">
-								<div class="flex-col col-4">
+								<div class="flex-col col-4 col-sm-6 col-xs-12">
 									<div class="materials-card">
 										<div class="card-preview"></div>
 										<div class="card-descr">
@@ -94,7 +96,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="flex-col col-4">
+								<div class="flex-col col-4 col-sm-6 col-xs-12">
 									<div class="materials-card">
 										<div class="card-preview"></div>
 										<div class="card-descr">

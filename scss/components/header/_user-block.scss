@@ -4,10 +4,9 @@
 	position: relative;
 
 	.user-avatar{
-		width: 41px;
-		height: 41px;
+		width: 40px;
+		height: 40px;
 		border-radius: 50%;
-		margin-right: 10px;
 		flex: none;
 		position: relative;
 
@@ -36,6 +35,8 @@
 	}
 
 	.user-info{
+		margin-left: 10px;
+
 		.name{
 			font-size: 13px;
 			line-height: 15px;
@@ -160,5 +161,19 @@
 
 	&.top-aligned{
 		align-items: flex-start;
+	}
+
+	@media screen and (max-width: 620px){
+		.user-avatar{
+			.popover-block{
+				right: 0;
+				left: auto;
+
+				&:before{
+					right: 9px;
+					left: auto;
+				}
+			}
+		}
 	}
 }

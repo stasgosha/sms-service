@@ -50,3 +50,15 @@ wbr{ display: inline-block; }
 .margin-bottom-25px{ margin-bottom: 25px; }
 .margin-bottom-30px{ margin-bottom: 30px; }
 .margin-bottom-40px{ margin-bottom: 40px; }
+
+@media screen and (min-width: $mobile-big-breakpoint) and (max-width: $tablet-breakpoint){
+	.hidden-md{ display: none; }
+}
+
+@media screen and (min-width: $mobile-small-breakpoint) and (max-width: $mobile-big-breakpoint){
+	.hidden-sm{ display: none; }
+}
+
+@media screen and (max-width: $mobile-small-breakpoint){
+	.hidden-xs{ display: none; }
+}

@@ -17,4 +17,13 @@
 	}
 
 	.wallet-button{}
+
+	@media screen and (max-width: $desktop-breakpoint){
+		.wallet-button{
+			.btn{
+				min-width: 88px;
+				display: block;
+			}
+		}
+	}
 }

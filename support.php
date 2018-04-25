@@ -42,36 +42,38 @@
 					<h5>История обращений</h5>
 				</div>
 				<div class="gray-section small-paddings">
-					<table class="table">
-						<tr>
-							<th>Дата</th>
-							<th>Тема</th>
-							<th>Статус</th>
-							<th>Действие</th>
-						</tr>
-						<tr>
-							<td>01.01.2018  10:45:22</td>
-							<td>Вывод средств</td>
-							<td>Закрыт</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Удалить</a>
-							</td>
-						</tr>
-						<tr>
-							<td>01.01.2018  10:45:22</td>
-							<td>Вывод средств</td>
-							<td>Есть ответ</td>
-							<td>
-								<a href="#" class="btn btn-light btn-small btn-azure">Открыть</a>
-							</td>
-						</tr>
-						<tr>
-							<td>01.01.2018  10:45:22</td>
-							<td>Вывод средств</td>
-							<td>В обработке</td>
-							<td>&nbsp;</td>
-						</tr>
-					</table>
+					<div class="scrollable-container">
+						<table class="table">
+							<tr>
+								<th>Дата</th>
+								<th>Тема</th>
+								<th>Статус</th>
+								<th>Действие</th>
+							</tr>
+							<tr>
+								<td>01.01.2018  10:45:22</td>
+								<td>Вывод средств</td>
+								<td>Закрыт</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Удалить</a>
+								</td>
+							</tr>
+							<tr>
+								<td>01.01.2018  10:45:22</td>
+								<td>Вывод средств</td>
+								<td>Есть ответ</td>
+								<td>
+									<a href="#" class="btn btn-light btn-small btn-azure">Открыть</a>
+								</td>
+							</tr>
+							<tr>
+								<td>01.01.2018  10:45:22</td>
+								<td>Вывод средств</td>
+								<td>В обработке</td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -19,9 +19,9 @@
 						</div>
 						<div class="flex-container">
 							<div class="flex-row">
-								<div class="flex-col col-6">
+								<div class="flex-col col-6 col-md-9 col-sm-8 col-xs-12">
 									<div class="settings-form gray-fields">
-										<div class="form in-column">
+										<div class="form in-column xs-add-bottom-margin">
 											<div class="form-row">
 												<div class="label black">
 													<strong>Имя</strong>
@@ -57,7 +57,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="flex-col col-6">
+								<div class="flex-col col-6 col-md-3 col-sm-4 col-xs-12">
 									<div class="user-avatar-block">
 										<p class="block-caption">Аватар</p>
 										<div class="block-image">
@@ -76,7 +76,7 @@
 						</div>
 						<div class="flex-container">
 							<div class="flex-row">
-								<div class="flex-col col-6">
+								<div class="flex-col col-6 col-md-9 col-sm-8 col-xs-12">
 									<div class="settings-form gray-fields">
 										<div class="form in-column">
 											<div class="form-row">
@@ -114,7 +114,7 @@
 						</div>
 						<div class="flex-container">
 							<div class="flex-row">
-								<div class="flex-col col-6">
+								<div class="flex-col col-6 col-md-9 col-sm-8 col-xs-12">
 									<div class="settings-form gray-fields">
 										<div class="form in-column">
 											<div class="form-row">
@@ -146,7 +146,7 @@
 						</div>
 						<div class="flex-container">
 							<div class="flex-row">
-								<div class="flex-col col-6">
+								<div class="flex-col col-6 col-md-9 col-sm-8 col-xs-12">
 									<div class="settings-form gray-fields">
 										<div class="form in-column">
 											<div class="form-row">

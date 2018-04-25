@@ -81,6 +81,7 @@
 
 				.header-right{
 					flex: none;
+					display: flex;
 					padding: 15px 20px;
 					align-items: center;
 					justify-content: space-between;
@@ -127,5 +128,138 @@
 
 	.footer{
 		flex: none;
+	}
+
+	@media screen and (max-width: $desktop-breakpoint){
+		.page{
+			.header{
+				.header-inner{
+					.header-middle{
+						min-width: 490px;
+					}
+				}
+			}
+
+			.main-section{
+				.sidebar{}
+
+				.main-content{
+					padding-left: 15px;
+					padding-right: 15px;
+					width: calc(100% - 60px);
+
+					.main-content-inner{
+						.page-content{
+							width: calc(100% - 215px);
+						}
+
+						.right-sidebar{
+							width: 200px;
+							margin-left: 15px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: $tablet-breakpoint){
+		.page{
+			.header{
+				.header-inner{
+					.header-middle{
+						min-width: 360px;
+
+						.middle-left{
+							flex-direction: column;
+							align-items: flex-start;
+
+							.main-nav{
+								margin-right: 0;
+								margin-bottom: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		.page{
+			.main-section{
+				.main-content{
+					.main-content-inner{
+						flex-direction: column;
+
+						.page-content{
+							margin-bottom: 15px;
+							width: 100%;
+						}
+
+						.right-sidebar{
+							width: 100%;
+							margin-left: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: $mobile-small-breakpoint){
+		.page{
+			.main-section{
+				.sidebar{
+					padding-left: 5px;
+					padding-right: 5px;
+					padding-top: 3px;
+				}
+
+				.main-content{
+					padding-left: 10px;
+					padding-right: 10px;
+					width: calc(100% - 40px);
+					padding-top: 10px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 620px){
+		padding-top: 55px;
+
+		.page{
+			.header{
+				height: 55px;
+
+				.header-inner{
+					justify-content: space-between;
+
+					.header-left,
+					.header-right{
+						padding: 5px 10px;
+					}
+
+					.header-middle{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.scrollable-container{
+	display: block;
+	width: 100%;
+	overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+
+	.table{
+		width: 100%;
+		max-width: 100%;
+		display: table;
 	}
 }

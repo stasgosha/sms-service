@@ -1,0 +1,13 @@
+.pay-for-rent{
+	@media screen and (max-width: 520px){
+		flex-direction: column;
+		align-items: flex-start !important;
+
+		> .item{
+			margin-right: 0;
+			margin-bottom: 10px;
+
+			&:last-child{ margin-bottom: 0; }
+		}
+	}
+}

@@ -24,5 +24,10 @@ $t: .3s; // default transition time
 $r: 5px; // default border radius
 
 // Content width
-$content-min-width: 1000px;
+$content-min-width: 0px;
 $content-max-width: 1600px;
+
+$desktop-breakpoint: 1199px;
+$tablet-breakpoint: 960px;
+$mobile-big-breakpoint: 767px;
+$mobile-small-breakpoint: 479px;

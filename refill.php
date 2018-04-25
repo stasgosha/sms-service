@@ -20,7 +20,7 @@
 						<div class="radio-blocks">
 							<div class="flex-container">
 								<div class="flex-row">
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="visa-mastercard" id="visa-mastercard">
 											<label for="visa-mastercard" class="item-content">
@@ -28,7 +28,7 @@
 											</label>
 										</div>
 									</div>
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="qiwi" id="qiwi">
 											<label for="qiwi" class="item-content">
@@ -36,7 +36,7 @@
 											</label>
 										</div>
 									</div>
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="webmoney" id="webmoney">
 											<label for="webmoney" class="item-content">
@@ -44,7 +44,7 @@
 											</label>
 										</div>
 									</div>
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="yandex" id="yandex">
 											<label for="yandex" class="item-content">
@@ -52,7 +52,7 @@
 											</label>
 										</div>
 									</div>
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="privat" id="privat">
 											<label for="privat" class="item-content">
@@ -60,7 +60,7 @@
 											</label>
 										</div>
 									</div>
-									<div class="flex-col col-4">
+									<div class="flex-col col-4 col-xs-6">
 										<div class="radio-item">
 											<input type="radio" name="pay-system" value="moneygram" id="moneygram">
 											<label for="moneygram" class="item-content">
@@ -94,7 +94,7 @@
 						<div class="tariff-plans-section">
 							<div class="flex-container">
 								<div class="flex-row">
-									<div class="flex-col col-4 stretch-items">
+									<div class="flex-col col-4 col-sm-12 col-xs-12 stretch-items">
 										<div class="tariff-plan-block">
 											<h4 class="plan-caption">Стандарт</h4>
 											<div class="plan-descr">
@@ -106,7 +106,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex-col col-4 stretch-items">
+									<div class="flex-col col-4 col-sm-12 col-xs-12 stretch-items">
 										<div class="tariff-plan-block">
 											<h4 class="plan-caption">Люкс</h4>
 											<div class="plan-descr">
@@ -119,7 +119,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="flex-col col-4 stretch-items">
+									<div class="flex-col col-4 col-sm-12 col-xs-12 stretch-items">
 										<div class="tariff-plan-block">
 											<h4 class="plan-caption">VIP</h4>
 											<div class="plan-descr">
@@ -137,109 +137,111 @@
 					</div>
 					<div class="tab" id="tab_history">
 						<div class="gray-section small-paddings">
-							<table class="table">
-								<tr>
-									<th>
-										<div class="sort-by">
-											<span>Дата</span>
-											<i class="icon icon-sort"></i>
-										</div>
-									</th>
-									<th>
-										<div class="sort-by">
-											<span>Вид активности</span>
-											<i class="icon icon-sort"></i>
-										</div>
-									</th>
-									<th>
-										<div class="sort-by">
-											<span>Сумма</span>
-											<i class="icon icon-sort"></i>
-										</div>
-									</th>
-									<th>
-										<div class="sort-by">
-											<span>Операция</span>
-											<i class="icon icon-sort"></i>
-										</div>
-									</th>
-								</tr>
-								<tr>
-									<td>01.01.2018  10:45:22</td>
-									<td>Пополнение личного счета</td>
-									<td>10$</td>
-									<td>
-										<div class="status-block">
-											<div class="block-icon">
-												<div class="round-icon cursor-default small">
-													<span>+</span>
-												</div>
+							<div class="scrollable-container">
+								<table class="table">
+									<tr>
+										<th>
+											<div class="sort-by">
+												<span>Дата</span>
+												<i class="icon icon-sort"></i>
 											</div>
-											<span class="block-text">Приход</span>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>01.01.2018  10:45:22</td>
-									<td>Начисление от рефералов</td>
-									<td>10$</td>
-									<td>
-										<div class="status-block">
-											<div class="block-icon">
-												<div class="round-icon cursor-default small">
-													<span>+</span>
-												</div>
+										</th>
+										<th>
+											<div class="sort-by">
+												<span>Вид активности</span>
+												<i class="icon icon-sort"></i>
 											</div>
-											<span class="block-text">Приход</span>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>01.01.2018  10:45:22</td>
-									<td>Другая активность</td>
-									<td>10$</td>
-									<td>
-										<div class="status-block">
-											<div class="block-icon">
-												<div class="round-icon cursor-default small">
-													<span>+</span>
-												</div>
+										</th>
+										<th>
+											<div class="sort-by">
+												<span>Сумма</span>
+												<i class="icon icon-sort"></i>
 											</div>
-											<span class="block-text">Приход</span>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>01.01.2018  10:45:22</td>
-									<td>Начисление от рефералов</td>
-									<td>10$</td>
-									<td>
-										<div class="status-block">
-											<div class="block-icon">
-												<div class="round-icon cursor-default small">
-													<span>+</span>
-												</div>
+										</th>
+										<th>
+											<div class="sort-by">
+												<span>Операция</span>
+												<i class="icon icon-sort"></i>
 											</div>
-											<span class="block-text">Приход</span>
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>01.01.2018  10:45:22</td>
-									<td>Вывод средств</td>
-									<td>10$</td>
-									<td>
-										<div class="status-block">
-											<div class="block-icon">
-												<div class="round-icon cursor-default small coral">
-													<span>-</span>
+										</th>
+									</tr>
+									<tr>
+										<td>01.01.2018  10:45:22</td>
+										<td>Пополнение личного счета</td>
+										<td>10$</td>
+										<td>
+											<div class="status-block">
+												<div class="block-icon">
+													<div class="round-icon cursor-default small">
+														<span>+</span>
+													</div>
 												</div>
+												<span class="block-text">Приход</span>
 											</div>
-											<span class="block-text">Расход</span>
-										</div>
-									</td>
-								</tr>
-							</table>
+										</td>
+									</tr>
+									<tr>
+										<td>01.01.2018  10:45:22</td>
+										<td>Начисление от рефералов</td>
+										<td>10$</td>
+										<td>
+											<div class="status-block">
+												<div class="block-icon">
+													<div class="round-icon cursor-default small">
+														<span>+</span>
+													</div>
+												</div>
+												<span class="block-text">Приход</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>01.01.2018  10:45:22</td>
+										<td>Другая активность</td>
+										<td>10$</td>
+										<td>
+											<div class="status-block">
+												<div class="block-icon">
+													<div class="round-icon cursor-default small">
+														<span>+</span>
+													</div>
+												</div>
+												<span class="block-text">Приход</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>01.01.2018  10:45:22</td>
+										<td>Начисление от рефералов</td>
+										<td>10$</td>
+										<td>
+											<div class="status-block">
+												<div class="block-icon">
+													<div class="round-icon cursor-default small">
+														<span>+</span>
+													</div>
+												</div>
+												<span class="block-text">Приход</span>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<td>01.01.2018  10:45:22</td>
+										<td>Вывод средств</td>
+										<td>10$</td>
+										<td>
+											<div class="status-block">
+												<div class="block-icon">
+													<div class="round-icon cursor-default small coral">
+														<span>-</span>
+													</div>
+												</div>
+												<span class="block-text">Расход</span>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 						<a href="#" class="btn btn-light">Показать ещё</a>
 					</div>

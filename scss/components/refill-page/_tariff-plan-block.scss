@@ -5,6 +5,7 @@
 	flex-direction: column;
 	align-items: center;
 	transition: all $t;
+	width: 100%;
 
 	&:hover{
 		background: darken($light-bg, 10%);
@@ -57,5 +58,9 @@
 	.plan-button{
 		flex: none;
 		margin-bottom: calc(-25px - 17px);
+	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		margin-bottom: 40px;
 	}
 }

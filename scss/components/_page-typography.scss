@@ -72,6 +72,13 @@ hr{
 		line-height: 30px;
 		font-weight: 400;
 	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		h1,h2,h3{
+			font-size: 26px;
+			line-height: 26px;
+		}
+	}
 }
 
 .black{
@@ -129,6 +136,13 @@ hr{
 
 	&.small-margin{
 		margin-bottom: 10px;
+	}
+
+	@media screen and (max-width: $mobile-big-breakpoint){
+		h2,h3,h4,h5{
+			font-size: 22px;
+			line-height: 24px;
+		}
 	}
 }
 

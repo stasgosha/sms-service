@@ -31,6 +31,7 @@
 @import "components/header/user-block";
 @import "components/header/user-notifications";
 @import "components/header/popover-block";
+@import "components/header/menu-opener";
 
 // Sidebar
 @import "components/sidebar/sidebar-nav";
@@ -64,3 +65,6 @@
 // Settings Page
 @import "components/settings-page/settings-form";
 @import "components/settings-page/user-avatar-block";
+
+// Sim Rent Page
+@import "components/sim-rent-page/sim-rent";

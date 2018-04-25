@@ -22,6 +22,8 @@
 			vertical-align: middle;
 			border: 0;
 			border-bottom: 2px solid $light-bg;
+
+			.btn.btn-light{ margin-bottom: 3px; }
 		}
 
 		th{
@@ -61,6 +63,16 @@
 
 		i{
 			margin-left: 8px;
+		}
+	}
+
+	@media screen and (max-width: $desktop-breakpoint){
+		tr{
+			th,
+			td{
+				padding-left: 7px;
+				padding-right: 7px;
+			}
 		}
 	}
 }

@@ -7,4 +7,15 @@
 
 		&:last-child{ margin-right: 0; }
 	}
+
+	@media screen and (max-width: $desktop-breakpoint){
+		flex-direction: column;
+
+		> .item{
+			margin-right: 0;
+			margin-bottom: 5px;
+
+			&:last-child{ margin-bottom: 0; }
+		}
+	}
 }

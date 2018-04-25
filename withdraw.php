@@ -21,7 +21,7 @@
 				<div class="radio-blocks">
 					<div class="flex-container">
 						<div class="flex-row">
-							<div class="flex-col col-3">
+							<div class="flex-col col-3 col-sm-6 col-xs-6">
 								<div class="radio-item">
 									<input type="radio" name="pay-system" value="visa-mastercard" id="visa-mastercard">
 									<label for="visa-mastercard" class="item-content">
@@ -29,7 +29,7 @@
 									</label>
 								</div>
 							</div>
-							<div class="flex-col col-3">
+							<div class="flex-col col-3 col-sm-6 col-xs-6">
 								<div class="radio-item">
 									<input type="radio" name="pay-system" value="qiwi" id="qiwi">
 									<label for="qiwi" class="item-content">
@@ -37,7 +37,7 @@
 									</label>
 								</div>
 							</div>
-							<div class="flex-col col-3">
+							<div class="flex-col col-3 col-sm-6 col-xs-6">
 								<div class="radio-item">
 									<input type="radio" name="pay-system" value="webmoney" id="webmoney">
 									<label for="webmoney" class="item-content">
@@ -45,7 +45,7 @@
 									</label>
 								</div>
 							</div>
-							<div class="flex-col col-3">
+							<div class="flex-col col-3 col-sm-6 col-xs-6">
 								<div class="radio-item">
 									<input type="radio" name="pay-system" value="yandex" id="yandex">
 									<label for="yandex" class="item-content">
@@ -82,102 +82,104 @@
 					<h5>История вывода</h5>
 				</div>
 				<div class="gray-section small-paddings">
-					<table class="table">
-						<tr>
-							<th>
-								<div class="sort-by">
-									<span>Дата</span>
-									<i class="icon icon-sort"></i>
-								</div>
-							</th>
-							<th>
-								<div class="sort-by">
-									<span>Сумма</span>
-									<i class="icon icon-sort"></i>
-								</div>
-							</th>
-							<th>
-								<div class="sort-by">
-									<span>Способ вывода</span>
-									<i class="icon icon-sort"></i>
-								</div>
-							</th>
-							<th>
-								<div class="sort-by">
-									<span>Статус</span>
-									<i class="icon icon-sort"></i>
-								</div>
-							</th>
-						</tr>
-						<tr>
-							<td>01.01.2018 10:45:22</td>
-							<td>150,00</td>
-							<td>Карта Mastercard</td>
-							<td>
-								<div class="status-block">
-									<div class="block-icon">
-										<div class="round-icon cursor-default medium">
-											<span>
-												<i class="icon icon-tick"></i>
-											</span>
-										</div>
+					<div class="scrollable-container">
+						<table class="table">
+							<tr>
+								<th>
+									<div class="sort-by">
+										<span>Дата</span>
+										<i class="icon icon-sort"></i>
 									</div>
-									<span class="block-text">Выполнено</span>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>01.01.2018 10:45:22</td>
-							<td>150,00</td>
-							<td>Карта Mastercard</td>
-							<td>
-								<div class="status-block">
-									<div class="block-icon">
-										<div class="round-icon cursor-default medium">
-											<span>
-												<i class="icon icon-tick"></i>
-											</span>
-										</div>
+								</th>
+								<th>
+									<div class="sort-by">
+										<span>Сумма</span>
+										<i class="icon icon-sort"></i>
 									</div>
-									<span class="block-text">Выполнено</span>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>01.01.2018 10:45:22</td>
-							<td>150,00</td>
-							<td>Яндекс.Деньги</td>
-							<td>
-								<div class="status-block">
-									<div class="block-icon">
-										<div class="round-icon coral cursor-default medium">
-											<span>
-												<i class="icon icon-cancel"></i>
-											</span>
-										</div>
+								</th>
+								<th>
+									<div class="sort-by">
+										<span>Способ вывода</span>
+										<i class="icon icon-sort"></i>
 									</div>
-									<span class="block-text">Отменено</span>
-								</div>
-							</td>
-						</tr>
-						<tr>
-							<td>01.01.2018 10:45:22</td>
-							<td>150,00</td>
-							<td>Яндекс.Деньги</td>
-							<td>
-								<div class="status-block">
-									<div class="block-icon">
-										<div class="round-icon cursor-default medium">
-											<span>
-												<i class="icon icon-tick"></i>
-											</span>
-										</div>
+								</th>
+								<th>
+									<div class="sort-by">
+										<span>Статус</span>
+										<i class="icon icon-sort"></i>
 									</div>
-									<span class="block-text">Выполнено</span>
-								</div>
-							</td>
-						</tr>
-					</table>
+								</th>
+							</tr>
+							<tr>
+								<td>01.01.2018 10:45:22</td>
+								<td>150,00</td>
+								<td>Карта Mastercard</td>
+								<td>
+									<div class="status-block">
+										<div class="block-icon">
+											<div class="round-icon cursor-default medium">
+												<span>
+													<i class="icon icon-tick"></i>
+												</span>
+											</div>
+										</div>
+										<span class="block-text">Выполнено</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>01.01.2018 10:45:22</td>
+								<td>150,00</td>
+								<td>Карта Mastercard</td>
+								<td>
+									<div class="status-block">
+										<div class="block-icon">
+											<div class="round-icon cursor-default medium">
+												<span>
+													<i class="icon icon-tick"></i>
+												</span>
+											</div>
+										</div>
+										<span class="block-text">Выполнено</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>01.01.2018 10:45:22</td>
+								<td>150,00</td>
+								<td>Яндекс.Деньги</td>
+								<td>
+									<div class="status-block">
+										<div class="block-icon">
+											<div class="round-icon coral cursor-default medium">
+												<span>
+													<i class="icon icon-cancel"></i>
+												</span>
+											</div>
+										</div>
+										<span class="block-text">Отменено</span>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>01.01.2018 10:45:22</td>
+								<td>150,00</td>
+								<td>Яндекс.Деньги</td>
+								<td>
+									<div class="status-block">
+										<div class="block-icon">
+											<div class="round-icon cursor-default medium">
+												<span>
+													<i class="icon icon-tick"></i>
+												</span>
+											</div>
+										</div>
+										<span class="block-text">Выполнено</span>
+									</div>
+								</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 		</div>
