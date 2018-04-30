@@ -162,6 +162,8 @@
 
 	&:not(.cursor-default){
 		&:hover{
+			color: #fff;
+			text-decoration: none;
 			background: $green-dark;
 		}
 	}
